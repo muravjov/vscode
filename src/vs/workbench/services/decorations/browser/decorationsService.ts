@@ -18,6 +18,8 @@ import { IIterator } from 'vs/base/common/iterator';
 import { isFalsyOrWhitespace } from 'vs/base/common/strings';
 import { localize } from 'vs/nls';
 
+export const DECORATION_RULE_CLASS_PREFIX = 'monaco-decorations-style-';
+
 class DecorationRule {
 
 	static keyOf(data: IDecorationData | IDecorationData[]): string {
@@ -29,7 +31,7 @@ class DecorationRule {
 		}
 	}
 
-	private static readonly _classNames = new IdGenerator('monaco-decorations-style-');
+	private static readonly _classNames = new IdGenerator(DECORATION_RULE_CLASS_PREFIX);
 
 	readonly data: IDecorationData | IDecorationData[];
 	readonly itemColorClassName: string;

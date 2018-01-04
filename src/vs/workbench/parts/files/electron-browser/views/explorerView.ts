@@ -44,6 +44,7 @@ import { IWorkbenchThemeService, IFileIconTheme } from 'vs/workbench/services/th
 import { isLinux } from 'vs/base/common/platform';
 import { IDecorationsService } from 'vs/workbench/services/decorations/browser/decorations';
 import { WorkbenchTree, IListService } from 'vs/platform/list/browser/listService';
+import { DECORATION_RULE_CLASS_PREFIX } from 'vs/workbench/services/decorations/browser/decorationsService';
 
 export interface IExplorerViewOptions extends IViewletViewOptions {
 	viewletState: FileViewletState;
@@ -471,8 +472,14 @@ export class ExplorerView extends TreeViewsViewletPanel implements IExplorerView
 	public getOptimalWidth(): number {
 		const parentNode = this.explorerViewer.getHTMLElement();
 		const childNodes = [].slice.call(parentNode.querySelectorAll('.explorer-item .label-name')); // select all file labels
-
-		return DOM.getLargestChildWidth(parentNode, childNodes);
+		return DOM.getLargestChildWidth(parentNode, childNodes, (child: HTMLElement) => {
+			const explorerItem = <HTMLElement>child.parentNode.parentNode;
+			if (explorerItem.className.indexOf(DECORATION_RULE_CLASS_PREFIX) === -1) {
+				return 0;
+			}
+			const badgeStyles = window.getComputedStyle(explorerItem, '::after');
+			return parseFloat(badgeStyles.width.replace('px', '')) + parseFloat(badgeStyles.paddingRight.replace('px', ''));
+		});
 	}
 
 	private onFileOperation(e: FileOperationEvent): void {

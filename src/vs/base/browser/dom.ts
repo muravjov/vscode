@@ -617,9 +617,10 @@ function getRelativeLeft(element: HTMLElement, parent: HTMLElement): number {
 	return elementPosition.left - parentPosition.left;
 }
 
-export function getLargestChildWidth(parent: HTMLElement, children: HTMLElement[]): number {
+export function getLargestChildWidth(parent: HTMLElement, children: HTMLElement[], additionalValue: (child: HTMLElement) => number): number {
 	let childWidths = children.map((child) => {
-		return Math.max(getTotalScrollWidth(child), getTotalWidth(child)) + getRelativeLeft(child, parent) || 0;
+		const value = Math.max(getTotalScrollWidth(child), getTotalWidth(child)) + getRelativeLeft(child, parent) || 0;
+		return additionalValue ? additionalValue(child) + value : value;
 	});
 	let maxWidth = Math.max(...childWidths);
 	return maxWidth;
