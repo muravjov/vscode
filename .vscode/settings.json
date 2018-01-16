@@ -5,10 +5,7 @@
 	"files.exclude": {
 		".git": true,
 		".build": true,
-		"**/.DS_Store": true,
-		"build/**/*.js": {
-			"when": "$(basename).ts"
-		}
+		"**/.DS_Store": true
 	},
 	"files.associations": {
 		"OSSREADME.json": "jsonc"
