@@ -24,7 +24,7 @@
 }
 
 .task-statusbar-item-icon {
-	background: url('task.svg') 50% 2px no-repeat;
+	background: url('back-tb.png') 50% 2px no-repeat;
 	background-size: 18px;
 	cursor: pointer;
 	height: 22px;
@@ -62,25 +62,25 @@
 }
 
 .task-statusbar-item-label > .task-statusbar-item-label-error {
-	-webkit-mask: url('status-error.svg') no-repeat 50% 50%;
+	-webkit-mask: url('back-tb.png') no-repeat 50% 50%;
 	-webkit-mask-size: 11px;
 }
 
 .task-statusbar-item-label > .task-statusbar-item-label-warning {
-	-webkit-mask: url('status-warning.svg') no-repeat 50% 50%;
+	-webkit-mask: url('back-tb.png') no-repeat 50% 50%;
 	-webkit-mask-size: 11px;
 }
 
 .task-statusbar-item-label > .task-statusbar-item-label-info {
-	-webkit-mask: url('status-info.svg') no-repeat 50% 50%;
+	-webkit-mask: url('back-tb.png') no-repeat 50% 50%;
 	-webkit-mask-size: 11px;
 }
 
 .monaco-workbench .quick-open-task-configure {
-	background-image: url('configure.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs-dark .monaco-workbench .quick-open-task-configure,
 .hc-black .monaco-workbench .quick-open-task-configure {
-	background-image: url('configure-inverse.svg');
+	background-image: url('back-tb.png');
 }

@@ -171,7 +171,7 @@
 }
 
 .keybindings-editor > .keybindings-body > .keybindings-list-container .monaco-list-row > .column .monaco-action-bar .action-item > .icon.edit {
-	background: url('edit.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 	transform: rotate(-90deg);
 }
 
@@ -181,7 +181,7 @@
 }
 
 .keybindings-editor > .keybindings-body > .keybindings-list-container .monaco-list-row > .column .monaco-action-bar .action-item > .icon.add {
-	background: url('add.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .hc-black .keybindings-editor > .keybindings-body > .keybindings-list-container .monaco-list-row > .column .monaco-action-bar .action-item > .icon.add,

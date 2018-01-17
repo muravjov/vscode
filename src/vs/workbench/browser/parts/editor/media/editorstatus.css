@@ -73,7 +73,7 @@
 }
 
 .monaco-shell.vs .screen-reader-detected-explanation .cancel {
-	background: url('close-big.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 .monaco-shell.vs .screen-reader-detected-explanation .cancel:hover {
 	background-color: #eaeaea;
@@ -81,7 +81,7 @@
 
 .monaco-shell.vs-dark .screen-reader-detected-explanation .cancel,
 .monaco-shell.hc-black .screen-reader-detected-explanation .cancel {
-	background: url('close-big-dark.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 .monaco-shell.vs-dark .screen-reader-detected-explanation .cancel:hover {
 	background-color: rgba(30,30,30,0.8);

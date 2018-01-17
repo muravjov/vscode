@@ -13,11 +13,11 @@
 }
 
 .monaco-workbench .explorer-action.new-file {
-	background: url('AddFile.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .explorer-action.save-all {
-	background: url('saveall.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .explorer-action.save-all,
@@ -31,7 +31,7 @@
 }
 
 .monaco-workbench .explorer-action.new-folder {
-	background: url('AddFolder.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .explorer-action.new-folder,
@@ -40,7 +40,7 @@
 }
 
 .monaco-workbench .explorer-action.refresh-explorer {
-	background: url('Refresh.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .explorer-action.refresh-explorer,
@@ -49,7 +49,7 @@
 }
 
 .monaco-workbench .explorer-action.collapse-explorer {
-	background: url('CollapseAll.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .explorer-action.collapse-explorer,
@@ -58,41 +58,41 @@
 }
 
 .monaco-workbench .quick-open-sidebyside-vertical {
-	background-image: url('split-editor-vertical.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs-dark .monaco-workbench .quick-open-sidebyside-vertical,
 .hc-black .monaco-workbench .quick-open-sidebyside-vertical {
-	background-image: url('split-editor-vertical-inverse.svg');
+	background-image: url('back-tb.png');
 }
 
 .monaco-workbench .quick-open-sidebyside-horizontal {
-	background-image: url('split-editor-horizontal.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs-dark .monaco-workbench .quick-open-sidebyside-horizontal,
 .hc-black .monaco-workbench .quick-open-sidebyside-horizontal {
-	background-image: url('split-editor-horizontal-inverse.svg');
+	background-image: url('back-tb.png');
 }
 
 .monaco-workbench .save-conflict-action-accept-changes {
-	background: url('check.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .save-conflict-action-accept-changes {
-	background: url('check-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .save-conflict-action-revert-changes {
-	background: url('undo.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .save-conflict-action-revert-changes {
-	background: url('undo-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .file-editor-action.action-open-preview {
-	background: url('Preview.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .file-editor-action.action-open-preview ,

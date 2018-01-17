@@ -84,7 +84,7 @@
 .monaco-workbench .quick-open-widget .quick-open-tree .quick-open-entry .quick-open-entry-icon.number,
 .monaco-workbench .quick-open-widget .quick-open-tree .quick-open-entry .quick-open-entry-icon.null,
 .monaco-workbench .quick-open-widget .quick-open-tree .quick-open-entry .quick-open-entry-icon.boolean {
-	background-image: url('symbol-sprite.svg');
+	background-image: url('back-tb.png');
 	background-repeat: no-repeat;
 }
 

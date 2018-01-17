@@ -41,7 +41,7 @@
 /** Panel Switcher */
 
 .monaco-workbench > .part.panel > .title > .panel-switcher-container.composite-bar > .monaco-action-bar .action-label.toggle-more {
-	background: url('ellipsis.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 	display: block;
 	height: 31px;
 	min-width: 28px;
@@ -96,69 +96,69 @@
 }
 
 .monaco-workbench .hide-panel-action {
-	background: url('close.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .maximize-panel-action {
-	background-image: url('up.svg');
+	background-image: url('back-tb.png');
 }
 
 .monaco-workbench .panel.right .maximize-panel-action {
-	background-image: url('left.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs-dark .monaco-workbench .maximize-panel-action,
 .hc-black .monaco-workbench .maximize-panel-action {
-	background-image: url('up-inverse.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs-dark .monaco-workbench .panel.right .maximize-panel-action,
 .hc-black .monaco-workbench .panel.right .maximize-panel-action {
-	background-image: url('left-inverse.svg');
+	background-image: url('back-tb.png');
 }
 
 .monaco-workbench .minimize-panel-action {
-	background-image: url('down.svg');
+	background-image: url('back-tb.png');
 }
 
 .monaco-workbench .panel.right .minimize-panel-action {
-	background-image: url('right.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs-dark .monaco-workbench .minimize-panel-action,
 .hc-black .monaco-workbench .minimize-panel-action {
-	background-image: url('down-inverse.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs-dark .monaco-workbench .panel.right .minimize-panel-action,
 .hc-black .monaco-workbench .panel.right .minimize-panel-action {
-	background-image: url('right-inverse.svg');
+	background-image: url('back-tb.png');
 }
 
 .monaco-workbench .move-panel-to-right {
-	background: url('panel-right.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .move-panel-to-right,
 .hc-black .monaco-workbench .move-panel-to-right {
-	background: url('panel-right-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .move-panel-to-bottom {
-	background: url('panel-bottom.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .move-panel-to-bottom,
 .hc-black .monaco-workbench .move-panel-to-bottom {
-	background: url('panel-bottom-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .hide-panel-action,
 .hc-black .monaco-workbench .hide-panel-action {
-	background: url('close-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench > .part.panel > .title > .panel-switcher-container.composite-bar > .monaco-action-bar .action-label.toggle-more,
 .hc-black .monaco-workbench > .part.panel > .title > .panel-switcher-container.composite-bar > .monaco-action-bar .action-label.toggle-more {
-	background: url('ellipsis-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }

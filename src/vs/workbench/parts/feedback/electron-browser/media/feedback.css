@@ -137,7 +137,7 @@
 }
 
 .monaco-shell .statusbar-item > .dropdown.send-feedback > .dropdown-label.send-feedback {
-	-webkit-mask: url('smiley.svg') no-repeat 50% 50%; /* use mask to be able to change color dynamically */
+	-webkit-mask: url('back-tb.png') no-repeat 50% 50%; /* use mask to be able to change color dynamically */
 	width: 26px;
 }
 
@@ -149,7 +149,7 @@
 
 
 .monaco-shell.vs .feedback-form .cancel {
-	background: url('close.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-shell.vs .feedback-form .cancel:hover {
@@ -173,7 +173,7 @@
 	color: white;
 	border: none;
 	cursor: pointer;
-	background-image: url('twitter.svg');
+	background-image: url('back-tb.png');
 	background-color: #007ACC;
 	background-position: left;
 	background-size: 20px;
@@ -219,7 +219,7 @@
 
 .monaco-shell.vs-dark .feedback-form .cancel,
 .monaco-shell.hc-black .feedback-form .cancel {
-	background: url('close-dark.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-shell.vs-dark .feedback-form .cancel:hover {
@@ -227,19 +227,19 @@
 }
 
 .monaco-shell .feedback-form .sentiment.smile {
-	background-image: url('happy.svg');
+	background-image: url('back-tb.png');
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .monaco-shell .feedback-form .sentiment.frown {
-	background-image: url('sad.svg');
+	background-image: url('back-tb.png');
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .monaco-shell .feedback-form .infotip {
-	background-image: url('info.svg');
+	background-image: url('back-tb.png');
 	background-position: center;
 	background-repeat: no-repeat;
 
@@ -291,7 +291,7 @@
 }
 
 .monaco-shell .feedback-form .infotip:before {
-	content: url('info.svg');
+	content: url('back-tb.png');
 	height: 16px;
 	width: 16px;
 	display: inline-block;

@@ -18,10 +18,10 @@
 }
 
 .monaco-editor.vs .lightbulb-glyph {
-	background: url('lightbulb.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-editor.vs-dark .lightbulb-glyph,
 .monaco-editor.hc-black .lightbulb-glyph {
-	background: url('lightbulb-dark.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }

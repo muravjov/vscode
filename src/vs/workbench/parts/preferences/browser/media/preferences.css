@@ -269,7 +269,7 @@
 }
 
 .monaco-editor .edit-preferences-widget {
-	background: url('edit.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 	transform: rotate(-90deg);
 	width:16px;
 	height: 16px;
@@ -307,7 +307,7 @@
 
 .title-actions .action-item .icon.collapseAll,
 .editor-actions .action-item .icon.collapseAll {
-	background: url('collapseAll.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .title-actions .action-item .icon.collapseAll,

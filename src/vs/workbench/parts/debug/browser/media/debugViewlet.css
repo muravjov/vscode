@@ -12,15 +12,15 @@
 /* Actionbar actions */
 
 .monaco-workbench .debug-action.configure {
-	background: url('configure.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .debug-action.start {
-	background: url('continue.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .debug-action.toggle-repl {
-	background: url('repl.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .debug-action.notification:before {
@@ -37,17 +37,17 @@
 
 .vs-dark .monaco-workbench .debug-action.start,
 .hc-black .monaco-workbench .debug-action.start {
-	background: url('continue-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .debug-action.configure,
 .hc-black .monaco-workbench .debug-action.configure {
-	background: url('configure-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .debug-action.toggle-repl,
 .hc-black .monaco-workbench .debug-action.toggle-repl {
-	background: url('repl-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench > .part > .title > .title-actions .start-debug-action-item {
@@ -67,7 +67,7 @@
 .monaco-workbench > .part > .title > .title-actions .start-debug-action-item .icon {
 	height: 20px;
 	width: 20px;
-	background: url('continue.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 	flex-shrink: 0;
 	transition: transform 50ms ease;
 	-webkit-transition: -webkit-transform 50ms ease;
@@ -75,7 +75,7 @@
 
 .vs-dark .monaco-workbench > .part > .title > .title-actions .start-debug-action-item .icon,
 .hc-black .monaco-workbench > .part > .title > .title-actions .start-debug-action-item .icon {
-	background: url('continue-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .monaco-action-bar .start-debug-action-item .configuration .select-box {
@@ -329,7 +329,7 @@
 
 .debug-viewlet .debug-action.add-watch-expression,
 .debug-viewlet .debug-action.add-function-breakpoint {
-	background: url('add.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .debug-viewlet .focused .monaco-tree-row.selected:not(.highlighted) > .content.actions .debug-action.add-watch-expression {
@@ -339,7 +339,7 @@
 .vs-dark .debug-viewlet .debug-action.add-watch-expression,
 .vs-dark .debug-viewlet .debug-action.add-function-breakpoint,
 .hc-black .debug-viewlet .debug-action.add-watch-expression {
-	background: url('add-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .debug-viewlet .monaco-tree-row .expression .value.changed {
@@ -373,15 +373,15 @@
 }
 
 .debug-viewlet .debug-action.remove {
-	background: url('remove.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .debug-viewlet .debug-action.remove-all {
-	background: url('remove-all.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .debug-viewlet .debug-action.breakpoints-activate {
-	background: url('breakpoints-activate.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .debug-viewlet .focused .monaco-tree-row.selected:not(.highlighted) > .content.actions .debug-action.remove,
@@ -391,17 +391,17 @@
 
 .vs-dark .debug-viewlet .debug-action.remove,
 .hc-black .debug-viewlet .debug-action.remove {
-	background: url('remove-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .debug-viewlet .debug-action.remove-all,
 .hc-black .debug-viewlet .debug-action.remove-all {
-	background: url('remove-all-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .debug-viewlet .debug-action.breakpoints-activate,
 .hc-black .debug-viewlet .debug-action.breakpoints-activate {
-	background: url('breakpoints-activate-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 /* No workspace view */

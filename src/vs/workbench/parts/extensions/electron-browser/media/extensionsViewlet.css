@@ -92,7 +92,7 @@
 }
 
 .extensions-viewlet > .extensions .extension.loading {
-	background: url('loading.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .extensions-viewlet > .extensions .extension > .icon {

@@ -97,25 +97,25 @@
 }
 
 .markers-panel .icon.warning {
-	background: url('status-warning.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .markers-panel .icon.error {
-	background: url('status-error.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .markers-panel .icon.info {
-	background: url('status-info.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .markers-panel .icon.warning {
-	background: url('status-warning-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .markers-panel .icon.error {
-	background: url('status-error-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .markers-panel .icon.info {
-	background: url('status-info-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }

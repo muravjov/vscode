@@ -88,11 +88,11 @@
 
 .hc-black .monaco-workbench .search-viewlet .query-details .more,
 .vs-dark .monaco-workbench .search-viewlet .query-details .more {
-	background: url('ellipsis-inverse.svg') top center no-repeat;
+	background: url('back-tb.png') top center no-repeat;
 }
 
 .vs .monaco-workbench .search-viewlet .query-details .more {
-	background: url('ellipsis.svg') top center no-repeat;
+	background: url('back-tb.png') top center no-repeat;
 }
 
 .search-viewlet .query-details .file-types {
@@ -128,12 +128,12 @@
 
 .vs-dark .monaco-workbench .search-configure-exclusions,
 .hc-black .monaco-workbench .search-configure-exclusions {
-	background: url('configure-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 	opacity: .7;
 }
 
 .vs .monaco-workbench .search-configure-exclusions {
-	background: url('configure.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 	opacity: 0.7;
 }
 
@@ -244,21 +244,21 @@
 }
 
 .search-viewlet .action-replace {
-	background-image: url('replace.svg');
+	background-image: url('back-tb.png');
 }
 
 .search-viewlet .action-replace-all {
-	background: url('replace-all.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .hc-black .search-viewlet .action-replace,
 .vs-dark .search-viewlet .action-replace {
-	background-image: url('replace-inverse.svg');
+	background-image: url('back-tb.png');
 }
 
 .hc-black .search-viewlet .action-replace-all,
 .vs-dark .search-viewlet .action-replace-all {
-	background: url('replace-all-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .search-viewlet .label {
@@ -284,7 +284,7 @@
 }
 
 .monaco-workbench .search-action.refresh {
-	background: url('Refresh.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .search-action.refresh,
@@ -293,7 +293,7 @@
 }
 
 .monaco-workbench .search-action.collapse {
-	background: url('CollapseAll.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .search-action.collapse,
@@ -302,30 +302,30 @@
 }
 
 .monaco-workbench .search-action.clear-search-results {
-	background: url('clear-search-results.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .search-action.clear-search-results,
 .hc-black .monaco-workbench .search-action.clear-search-results {
-	background: url('clear-search-results-dark.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs .monaco-workbench .search-viewlet .query-details .file-types .controls > .custom-checkbox.pattern {
-	background: url('pattern.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .search-viewlet .query-details .file-types .controls > .custom-checkbox.pattern,
 .hc-black .monaco-workbench .search-viewlet .query-details .file-types .controls > .custom-checkbox.pattern {
-	background: url('pattern-dark.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs .monaco-workbench .search-viewlet .query-details .file-types .controls>.custom-checkbox.useExcludesAndIgnoreFiles {
-	background: url('excludeSettings.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .search-viewlet .query-details .file-types .controls>.custom-checkbox.useExcludesAndIgnoreFiles,
 .hc-black .monaco-workbench .search-viewlet .query-details .file-types .controls>.custom-checkbox.useExcludesAndIgnoreFiles {
-	background: url('excludeSettings-dark.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .search-viewlet .replace.findInFileMatch {
@@ -358,11 +358,11 @@
 }
 
 .vs .search-viewlet .search-widget .toggle-replace-button.collapse {
-	background-image: url('expando-collapsed.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs .search-viewlet .search-widget .toggle-replace-button.expand {
-	background-image: url('expando-expanded.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs-dark .search-viewlet .query-clear {
@@ -385,12 +385,12 @@
 
 .vs-dark .search-viewlet .search-widget .toggle-replace-button.expand,
 .hc-black .search-viewlet .search-widget .toggle-replace-button.expand {
-	background-image: url('expando-expanded-dark.svg');
+	background-image: url('back-tb.png');
 }
 
 .vs-dark .search-viewlet .search-widget .toggle-replace-button.collapse,
 .hc-black .search-viewlet .search-widget .toggle-replace-button.collapse {
-	background-image: url('expando-collapsed-dark.svg');
+	background-image: url('back-tb.png');
 }
 
 /* High Contrast Theming */

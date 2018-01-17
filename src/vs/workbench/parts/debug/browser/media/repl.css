@@ -127,12 +127,12 @@
 /* Actions */
 
 .monaco-workbench .debug-action.clear-repl {
-	background: url('clear-repl.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .debug-action.clear-repl,
 .hc-black .monaco-workbench .debug-action.clear-repl {
-	background: url('clear-repl-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 /* Output coloring */

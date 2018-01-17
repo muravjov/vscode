@@ -71,37 +71,37 @@
 /* Actions */
 
 .monaco-workbench .close-editor-action {
-	background: url('close.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .close-editor-action,
 .hc-black .monaco-workbench .close-editor-action {
-	background: url('close-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench > .part.editor > .content.vertical-layout > .one-editor-silo > .container > .title .split-editor-action {
-	background: url('split-editor-vertical.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench > .part.editor > .content.vertical-layout > .one-editor-silo > .container > .title .split-editor-action,
 .hc-black .monaco-workbench > .part.editor > .content.vertical-layout > .one-editor-silo > .container > .title .split-editor-action {
-	background: url('split-editor-vertical-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench > .part.editor > .content.horizontal-layout > .one-editor-silo > .container > .title .split-editor-action {
-	background: url('split-editor-horizontal.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench > .part.editor > .content.horizontal-layout > .one-editor-silo > .container > .title .split-editor-action,
 .hc-black .monaco-workbench > .part.editor > .content.horizontal-layout > .one-editor-silo > .container > .title .split-editor-action {
-	background: url('split-editor-horizontal-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-workbench .show-group-editors-action {
-	background: url('stackview.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-workbench .show-group-editors-action,
 .hc-black .monaco-workbench .show-group-editors-action {
-	background: url('stackview-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }

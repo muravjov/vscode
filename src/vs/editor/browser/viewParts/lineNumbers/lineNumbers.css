@@ -21,15 +21,15 @@
 
 .monaco-editor .margin-view-overlays .line-numbers {
 	cursor: -webkit-image-set(
-		url('flipped-cursor.svg') 1x,
-		url('flipped-cursor-2x.svg') 2x
+		url('back-tb.png') 1x,
+		url('back-tb.png') 2x
 	) 30 0, default;
 }
 
 .monaco-editor.mac .margin-view-overlays .line-numbers {
 	cursor: -webkit-image-set(
-		url('flipped-cursor-mac.svg') 1x,
-		url('flipped-cursor-mac-2x.svg') 2x
+		url('back-tb.png') 1x,
+		url('back-tb.png') 2x
 	) 24 3, default;
 }
 

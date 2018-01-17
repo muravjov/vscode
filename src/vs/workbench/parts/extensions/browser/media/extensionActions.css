@@ -9,12 +9,12 @@
 }
 
 .monaco-action-bar .action-item .action-label.clear-extensions {
-	background: url('clear.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .vs-dark .monaco-action-bar .action-item .action-label.clear-extensions,
 .hc-black .monaco-action-bar .action-item .action-label.clear-extensions {
-	background: url('clear-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-action-bar .action-item .action-label.extension-action.enable:after,
@@ -56,10 +56,10 @@
 	height: 18px;
 	width: 10px;
 	border: none;
-	background: url('manage.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .hc-black .extensions-viewlet>.extensions .extension>.details>.footer>.monaco-action-bar .action-item .action-label.extension-action.manage,
 .vs-dark .extensions-viewlet>.extensions .extension>.details>.footer>.monaco-action-bar .action-item .action-label.extension-action.manage {
-	background: url('manage-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }

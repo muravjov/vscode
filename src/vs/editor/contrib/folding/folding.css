@@ -15,12 +15,12 @@
 }
 
 .monaco-editor .margin-view-overlays .folding {
-	background-image: url('arrow-expand.svg');
+	background-image: url('back-tb.png');
 }
 
 .monaco-editor.hc-black .margin-view-overlays .folding,
 .monaco-editor.vs-dark .margin-view-overlays .folding {
-	background-image: url('arrow-expand-dark.svg');
+	background-image: url('back-tb.png');
 }
 
 .monaco-editor .margin-view-overlays:hover .folding,
@@ -29,13 +29,13 @@
 }
 
 .monaco-editor .margin-view-overlays .folding.collapsed {
-	background-image: url('arrow-collapse.svg');
+	background-image: url('back-tb.png');
 	opacity: 1;
 }
 
 .monaco-editor.hc-black .margin-view-overlays .folding.collapsed,
 .monaco-editor.vs-dark .margin-view-overlays .folding.collapsed {
-	background-image: url('arrow-collapse-dark.svg');
+	background-image: url('back-tb.png');
 }
 
 .monaco-editor .inline-folded:after {

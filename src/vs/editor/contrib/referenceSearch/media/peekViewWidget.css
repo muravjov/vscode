@@ -57,7 +57,7 @@
 }
 
 .monaco-editor .peekview-widget .head .peekview-actions .action-label.icon.close-peekview-action {
-	background: url('close.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
 .monaco-editor .peekview-widget > .body {
@@ -70,6 +70,6 @@
 
 .monaco-editor.hc-black .peekview-widget .head .peekview-actions .action-label.icon.close-peekview-action,
 .monaco-editor.vs-dark .peekview-widget .head .peekview-actions .action-label.icon.close-peekview-action {
-	background: url('close-inverse.svg') center center no-repeat;
+	background: url('back-tb.png') center center no-repeat;
 }
 
