@@ -13,6 +13,8 @@ import * as editorCommon from 'vs/editor/common/editorCommon';
 import { BlockCommentCommand } from './blockCommentCommand';
 import { LanguageConfigurationRegistry } from 'vs/editor/common/modes/languageConfigurationRegistry';
 import { CharCode } from 'vs/base/common/charCode';
+import { IConfigurationService } from 'vs/platform/configuration/common/configuration';
+
 
 export interface IInsertionPoint {
 	ignore: boolean;
@@ -51,7 +53,9 @@ export class LineCommentCommand implements editorCommon.ICommand {
 	private _tabSize: number;
 	private _type: Type;
 
-	constructor(selection: Selection, tabSize: number, type: Type) {
+	constructor(selection: Selection, tabSize: number, type: Type,
+		@IConfigurationService private _configurationService: IConfigurationService,
+	) {
 		this._selection = selection;
 		this._tabSize = tabSize;
 		this._type = type;
@@ -197,7 +201,7 @@ export class LineCommentCommand implements editorCommon.ICommand {
 			ops = LineCommentCommand._createRemoveLineCommentsOperations(data.lines, s.startLineNumber);
 		} else {
 			LineCommentCommand._normalizeInsertionPoint(model, data.lines, s.startLineNumber, this._tabSize);
-			ops = LineCommentCommand._createAddLineCommentsOperations(data.lines, s.startLineNumber);
+			ops = this._createAddLineCommentsOperations(data.lines, s.startLineNumber);
 		}
 
 		const cursorPosition = new Position(s.positionLineNumber, s.positionColumn);
@@ -370,11 +374,13 @@ export class LineCommentCommand implements editorCommon.ICommand {
 	/**
 	 * Generate edit operations in the add line comment case
 	 */
-	public static _createAddLineCommentsOperations(lines: ILinePreflightData[], startLineNumber: number): editorCommon.IIdentifiedSingleEditOperation[] {
+	public _createAddLineCommentsOperations(lines: ILinePreflightData[], startLineNumber: number): editorCommon.IIdentifiedSingleEditOperation[] {
 		var i: number,
 			len: number,
 			lineData: ILinePreflightData,
 			res: editorCommon.IIdentifiedSingleEditOperation[] = [];
+
+		var afterCommentStr = this._configurationService.getValue('editor.insertSpaceAfterComment') ? ' ' : '';
 
 		for (i = 0, len = lines.length; i < len; i++) {
 			lineData = lines[i];
@@ -383,7 +389,7 @@ export class LineCommentCommand implements editorCommon.ICommand {
 				continue;
 			}
 
-			res.push(EditOperation.insert(new Position(startLineNumber + i, lineData.commentStrOffset + 1), lineData.commentStr + ' '));
+			res.push(EditOperation.insert(new Position(startLineNumber + i, lineData.commentStrOffset + 1), lineData.commentStr + afterCommentStr));
 		}
 
 		return res;
